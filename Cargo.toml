@@ -210,3 +210,5 @@ name = "server"
 path = "tests/server.rs"
 required-features = ["runtime"]
 
+[patch.crates-io]
+tokio = { path = "../fakio" }
